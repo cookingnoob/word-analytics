@@ -3,7 +3,7 @@ import Stats from "./Stats";
 
 const Container = () => {
   return (
-    <main>
+    <main className="container">
       <Textarea />
       <Stats />
     </main>
