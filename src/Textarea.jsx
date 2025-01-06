@@ -5,6 +5,9 @@ const Textarea = () => {
   const [text, setText] = useState("");
   const [warning, setWarning] = useState("");
 
+  const numOfCharacters = text.length;
+  console.log(numOfCharacters);
+
   const handleChange = (event) => {
     let newText = event.target.value;
     if (newText.includes("<script>")) {
